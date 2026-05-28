@@ -677,6 +677,10 @@ h5 {
   font-size: 1.5em;
 }
 
+h3.card-title {
+    font-size: 22px;
+}
+
 .product-store .swiper-horizontal>.swiper-pagination-bullets,
 .product-store .swiper-pagination-bullets.swiper-pagination-horizontal,
 .product-store .swiper-pagination-custom,
