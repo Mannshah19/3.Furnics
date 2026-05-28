@@ -85,8 +85,18 @@ h5 {
   max-width: 1300px;
 }
 
-h2.display-2{
+h2.display-2 {
   font-size: 68px;
+}
+@media only screen and (max-width: 768px) {
+  h2.display-2 {
+    font-size: 38px !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  h2.display-2 {
+    font-size: 28px !important;
+  }
 }
 
 .btn {
@@ -641,9 +651,15 @@ h2.display-2{
     margin: 0 !important;
 }
 
-section{
+section {
     margin-top: 170px;
     margin-bottom: 170px;
+}
+@media only screen and (max-width: 768px) {
+  section {
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+  }
 }
 
 section#company-services .icon-box.d-flex.align-items-center {
@@ -711,8 +727,38 @@ section#company-services .icon-box i {
 }
 
 @media only screen and (max-width: 768px) {
+  #billboard .banner-item {
+    height: 480px !important;
+  }
+  #billboard .banner-content {
+    top: 50px !important;
+  }
   .banner-content h1.display-1 {
-    font-size: 3.5em;
+    font-size: 3em !important;
+    margin-bottom: 15px !important;
+  }
+  .banner-content p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #billboard .banner-item {
+    height: 400px !important;
+  }
+  #billboard .banner-content {
+    top: 30px !important;
+  }
+  .banner-content h1.display-1 {
+    font-size: 2.2em !important;
+    margin-bottom: 10px !important;
+  }
+  .banner-content p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 12px;
   }
 }
 
@@ -798,6 +844,22 @@ h3.card-title {
 .subscribe-content input,
 .subscribe-content button {
   height: 65px;
+}
+
+@media only screen and (max-width: 576px) {
+  .subscribe-content .input-group {
+    flex-direction: column;
+    box-shadow: none !important;
+  }
+  .subscribe-content .input-group .form-control {
+    width: 100% !important;
+    border-radius: 4px !important;
+    margin-bottom: 10px;
+  }
+  .subscribe-content .input-group button {
+    width: 100% !important;
+    border-radius: 4px !important;
+  }
 }
 
 #brand-collection a img {
