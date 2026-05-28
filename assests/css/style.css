@@ -85,6 +85,10 @@ h5 {
   max-width: 1300px;
 }
 
+h2.display-2{
+  font-size: 68px;
+}
+
 .btn {
   transition: all 0.3s ease;
   display: inline-block;
@@ -607,6 +611,60 @@ h5 {
 
 #header-nav .offcanvas-end {
   width: 500px;
+}
+
+#billboard .banner-item {
+    position: relative !important;
+    margin-top: 50px !important;
+    overflow: hidden;
+}
+
+#billboard .banner-content {
+    position: absolute !important;
+    top: 100px !important;
+    left: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left !important;
+    z-index: 10;
+}
+
+#billboard .banner-content h1 {
+    margin: 0 0 30px 0 !important;
+}
+
+#billboard .banner-content p {
+    font-size: 14px !important;
+    max-width: 500px !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+}
+
+section{
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+
+section#company-services .icon-box.d-flex.align-items-center {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 15px;
+}
+
+section#company-services .icon-box .icon-box-content h3.card-title {
+    width: 220px;
+    max-width: 220px;
+    display: block;
+    white-space: normal;
+    line-height: 1.2;
+    margin: 0;
+}
+
+section#company-services .icon-box .flex-shrink-0, 
+section#company-services .icon-box i {
+    flex-shrink: 0;
 }
 
 .offcanvas.show .nav-item a.nav-link {
